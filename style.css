@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {    
+    background: hsl(196, 86%, 86%);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    min-height: 150vh;
+}
+
+.wrapper {
+    top: 50%;
+    left: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+
+.form {
+    position: relative;
+    padding: 30px 20px;
+    margin: 20px;
+    min-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2sec;
+    border-radius: 5px;    
+}
+
+.form input {
+    width: 85%;
+    height: 45px;
+    padding: 12px;
+    color: #1e1d1d;
+    font-weight: 500;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    border: 2px solid #0d59b0;
+}
+
+.btn {
+    position: relative;
+    width: 80%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px 10px;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-top: 15px;
+    background-color: #0d59b0;
+    cursor: pointer;
+    outline: none;    
+}
+ label {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #0d59b0;
+    cursor: pointer;
+    background-color: #fafafa;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
